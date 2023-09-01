@@ -5,7 +5,11 @@ module.exports = {
     './custom-styles.css'
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('hero.jpg')",
+      }
+    },
   },
   plugins: [],
 }

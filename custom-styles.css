@@ -1,6 +1,6 @@
 /* Utilisation de la directive @apply pour réutiliser des styles */
 .site-container {
-    @apply bg-white p-8 rounded-lg shadow-md;
+    @apply bg-white p-8  shadow-md;
   }
   
   .site-title {
@@ -15,4 +15,32 @@
     @apply mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600;
   }
   
-  
+  .site-header{
+    @apply flex justify-between items-center shadow-md p-8;
+  }
+
+  .site-footer {
+    @apply bg-gray-800 text-white;
+  }
+  .d-center {
+    @apply flex items-center justify-center gap-8;
+  }
+  .d-between {
+    @apply flex items-center justify-between gap-8;
+  }
+
+  .color-nav {
+    @apply text-indigo-500 hover:text-indigo-400 text-2xl;
+  }
+
+  .bg-hero {
+    @apply bg-cover bg-center;
+  }
+
+  .h-90vh {
+    height: 90vh;
+  }
+
+  .size-h2{
+    font-size: 4.5rem;
+  }
