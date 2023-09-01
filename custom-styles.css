@@ -29,7 +29,7 @@
     @apply flex items-center justify-between gap-8;
   }
 
-  .color-nav {
+  .color-nav, .color-font {
     @apply text-indigo-500 hover:text-indigo-400 text-2xl;
   }
 
